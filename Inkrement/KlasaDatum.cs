@@ -1,53 +1,60 @@
-﻿
+﻿using System;
+
 namespace Vsite.CSharp
 {
-    class KlasaDatum
+    public class KlasaDatum
     {
         public KlasaDatum(int godina, int mjesec, int dan)
         {
-            Godina = godina;
-            Mjesec = mjesec;
-            Dan = dan;
+            this.godina = godina;
+            this.mjesec = mjesec;
+            this.dan = dan;
         }
 
         public int Godina
         {
-            get;
-            private set;
+            get { return godina; }
         }
 
         public int Mjesec
         {
-            get;
-            private set;
+            get { return mjesec; }
         }
 
         public int Dan
         {
-            get;
-            private set;
+            get { return dan; }
         }
+
+        private int godina;
+        private int mjesec;
+        private int dan;
 
         public override string ToString()
         {
             return string.Format("{0}.{1}.{2}", Dan, Mjesec, Godina);
         }
 
-        private void UvecajMjesec()
+        public override bool Equals(object obj)
         {
-            Mjesec++;
-            if (Mjesec <= 12)
-                return;
-            Mjesec = 1;
-            Godina++;
+            if (obj == null)
+                return false;
+            if (obj.GetType() != GetType())
+                return false;
+            KlasaDatum drugi = (KlasaDatum)obj;
+            if (drugi.Godina != Godina)
+                return false;
+            if (drugi.Mjesec != Mjesec)
+                return false;
+            return drugi.Dan == Dan;
         }
 
-        public static KlasaDatum operator ++(KlasaDatum datum)
+        public override int GetHashCode()
         {
-            datum.Dan++;
-            // TODO: dodati korekcije ako je prekoračen zadnji dan u mjesecu i godini
-
-            return datum;
+            return Godina ^ Mjesec ^ Dan;
         }
+
+        // TODO: definirati operator ++ koji će objekt tipa KlasaDatum uvećati za jedan dan, u metodi Main otkomentirati naredbe koje koriste operator ++ i pokrenuti program
+
     }
 }

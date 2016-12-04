@@ -3,7 +3,7 @@ Operatori
 
 KompleksniBroj
 --------------
-Primjer preopterećenja binarnog operatora + (zbrajanje) i unarnog operatora - (promjena predznaka)
+Primjer preopterećenja binarnog operatora + (zbrajanje) i - (oduzimanje) te unarnog operatora - (promjena predznaka)
 
 
 Inkrement

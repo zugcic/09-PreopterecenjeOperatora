@@ -10,15 +10,17 @@ namespace Vsite.CSharp
             try
             {
                 Racionalni rac = new Racionalni(25);
-                Debug.Assert(rac.ToString() == "25 / 1");
+                //Debug.Assert(rac.ToString() == "25 / 1");
                 Console.WriteLine(rac);
 
-                rac = new Racionalni(0.25);
-                Debug.Assert(rac.ToString() == "1 / 4");
+                // Naredba koja poziva konstruktor pretvorbe iz double
+                //rac = new Racionalni(0.25);
+                //Debug.Assert(rac.ToString() == "1 / 4");
                 Console.WriteLine(rac);
 
-                rac = new Racionalni(0.125);
-                Debug.Assert(rac.ToString() == "1 / 8");
+                // Naredba koja poziva konstruktor pretvorbe iz double
+                //rac = new Racionalni(0.125);
+                //Debug.Assert(rac.ToString() == "1 / 8");
                 Console.WriteLine(rac);
             }
             catch (System.Exception e)

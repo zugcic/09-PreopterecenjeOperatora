@@ -39,5 +39,23 @@ namespace Vsite.CSharp
                     throw new ArgumentOutOfRangeException("mjesec");
             }
         }
+
+        public static void UvećajMjesec(ref int mjesec, ref int godina)
+        {
+            mjesec++;
+            if (mjesec <= 12)
+                return;
+            mjesec = 1;
+            ++godina;
+        }
+
+        public static void UvećajDan(ref int dan, ref int mjesec, ref int godina)
+        {
+            dan++;
+            if (dan <= BrojDanaUMjesecu(mjesec, godina))
+                return;
+            dan = 1;
+            UvećajMjesec(ref mjesec, ref godina);
+        }
     }
 }

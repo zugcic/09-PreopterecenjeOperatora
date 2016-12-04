@@ -11,15 +11,12 @@ namespace Vsite.CSharp
 
             StrukturaDatum sd = new StrukturaDatum(2015, 12, 31);
 
-            StrukturaDatum sdPrefix = ++sd;
-            Debug.Assert(sdPrefix.ToString() == "1.1.2016");
-            Console.WriteLine(sdPrefix);
+            //StrukturaDatum sdPrefix = ++sd;
+            //Console.WriteLine(sdPrefix);
+            Console.WriteLine(sd);
 
-            StrukturaDatum sdPostfix = sd++;
-            Debug.Assert(sdPostfix.ToString() == "1.1.2016");
-            Console.WriteLine(sdPostfix);
-
-            Debug.Assert(sd.ToString() == "2.1.2016");
+            //StrukturaDatum sdPostfix = sd++;
+            //Console.WriteLine(sdPostfix);
             Console.WriteLine(sd);
 
             
@@ -27,15 +24,18 @@ namespace Vsite.CSharp
 
             KlasaDatum kd = new KlasaDatum(2016, 2, 28);
 
-            KlasaDatum kd2 = ++kd;
+            KlasaDatum kd2 = null;
+            //kd2 = ++kd;
             Console.WriteLine(kd2);
             
-            KlasaDatum kd3 = kd++;
+            KlasaDatum kd3 = null;
+            //kd3 = kd++;
             Console.WriteLine(kd3);
 
             Console.WriteLine(kd);
             Console.WriteLine(kd2);
 
+            Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();
         }
     }

@@ -1,20 +1,34 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F000EBB8-9801-4C9D-AB50-2E5252F5A3E7}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00", "00", "{F000EBB8-9801-4C9D-AB50-2E5252F5A3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inkrement", "Inkrement\Inkrement.csproj", "{0BDDF490-87D0-492F-9DF3-752425F499FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{DD596055-AE7D-43A7-90FE-58442C8D8EBD}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe.txt = ReadMe.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompleksniBroj", "KompleksniBroj\KompleksniBroj.csproj", "{A105E086-762B-40B1-AA8B-23476B676AB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testovi", "Testovi\Testovi.csproj", "{80AB9361-28D2-45EF-B756-F08A2CEB6631}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racionalni1", "Racionalni1\Racionalni1.csproj", "{AD53287D-FB04-4DB7-B36D-63510B37D7CF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{6A144524-FAE3-4094-8BB2-4161E4779A02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racionalni2", "Racionalni2\Racionalni2.csproj", "{9BCABBAD-B732-4F19-945E-9504B3766A75}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{285A7CC3-8D10-4B63-BC1B-C391BF4FD7E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racionalni3", "Racionalni3\Racionalni3.csproj", "{23E1ECAC-C8B1-41E9-A3D0-33BB36B16B66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatoriPlusMinus", "OperatoriPlusMinus\OperatoriPlusMinus.csproj", "{A105E086-762B-40B1-AA8B-23476B676AB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inkrement", "Inkrement\Inkrement.csproj", "{0BDDF490-87D0-492F-9DF3-752425F499FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonstruktorPretvorbe", "KonstruktorPretvorbe\KonstruktorPretvorbe.csproj", "{AD53287D-FB04-4DB7-B36D-63510B37D7CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03", "03", "{40B3E252-90DE-41F4-983E-271269A87BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorImplicitnePretvorbe", "OperatorImplicitnePretvorbe\OperatorImplicitnePretvorbe.csproj", "{9BCABBAD-B732-4F19-945E-9504B3766A75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04", "04", "{73A8EDD2-7CEF-4FD1-8214-E9ECD3EB4CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorEksplicitnePretvorbe", "OperatorEksplicitnePretvorbe\OperatorEksplicitnePretvorbe.csproj", "{23E1ECAC-C8B1-41E9-A3D0-33BB36B16B66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +36,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BDDF490-87D0-492F-9DF3-752425F499FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDDF490-87D0-492F-9DF3-752425F499FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDDF490-87D0-492F-9DF3-752425F499FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDDF490-87D0-492F-9DF3-752425F499FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AB9361-28D2-45EF-B756-F08A2CEB6631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AB9361-28D2-45EF-B756-F08A2CEB6631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AB9361-28D2-45EF-B756-F08A2CEB6631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AB9361-28D2-45EF-B756-F08A2CEB6631}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A105E086-762B-40B1-AA8B-23476B676AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A105E086-762B-40B1-AA8B-23476B676AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A105E086-762B-40B1-AA8B-23476B676AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,12 +60,15 @@ Global
 		{23E1ECAC-C8B1-41E9-A3D0-33BB36B16B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23E1ECAC-C8B1-41E9-A3D0-33BB36B16B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23E1ECAC-C8B1-41E9-A3D0-33BB36B16B66}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0BDDF490-87D0-492F-9DF3-752425F499FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BDDF490-87D0-492F-9DF3-752425F499FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BDDF490-87D0-492F-9DF3-752425F499FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BDDF490-87D0-492F-9DF3-752425F499FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BDDF490-87D0-492F-9DF3-752425F499FE} = {6A144524-FAE3-4094-8BB2-4161E4779A02}
+		{A105E086-762B-40B1-AA8B-23476B676AB6} = {F000EBB8-9801-4C9D-AB50-2E5252F5A3E7}
+		{AD53287D-FB04-4DB7-B36D-63510B37D7CF} = {285A7CC3-8D10-4B63-BC1B-C391BF4FD7E7}
+		{9BCABBAD-B732-4F19-945E-9504B3766A75} = {40B3E252-90DE-41F4-983E-271269A87BCA}
+		{23E1ECAC-C8B1-41E9-A3D0-33BB36B16B66} = {73A8EDD2-7CEF-4FD1-8214-E9ECD3EB4CA9}
 	EndGlobalSection
 EndGlobal

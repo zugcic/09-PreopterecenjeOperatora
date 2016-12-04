@@ -2,53 +2,40 @@
 
 namespace Vsite.CSharp
 {
-    struct StrukturaDatum
+    public struct StrukturaDatum
     {
         public StrukturaDatum(int godina, int mjesec, int dan) : this()
         {
-            Godina = godina;
-            Mjesec = mjesec;
-            Dan = dan;
+            this.godina = godina;
+            this.mjesec = mjesec;
+            this.dan = dan;
         }
 
         public int Godina
         {
-            get;
-            private set;
+            get { return godina; }
         }
 
         public int Mjesec
         {
-            get;
-            private set;
+            get { return mjesec; }
         }
 
         public int Dan
         {
-            get;
-            private set;
+            get { return dan; }
         }
+
+        private int godina;
+        private int mjesec;
+        private int dan;
 
         public override string ToString()
         {
             return string.Format("{0}.{1}.{2}", Dan, Mjesec, Godina);
         }
 
-        private void UvecajMjesec()
-        {
-            Mjesec++;
-            if (Mjesec <= 12)
-                return;
-            Mjesec = 1;
-            Godina++;
-        }
+        // TODO: definirati operator ++ koji će objekt tipa KlasaDatum uvećati za jedan dan, u metodi Main otkomentirati naredbe koje koriste operator ++ i pokrenuti program
 
-        public static StrukturaDatum operator ++(StrukturaDatum datum)
-        {
-            datum.Dan++;
-            // TODO: dodati korekcije ako je prekoračen zadnji dan u mjesecu i godini
-
-            return datum;
-        }
     }
 }
