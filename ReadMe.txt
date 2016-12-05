@@ -1,8 +1,8 @@
 Operatori
 =========
 
-KompleksniBroj
---------------
+OperatoriPlusMinus
+-----------------
 Primjer preopterećenja binarnog operatora + (zbrajanje) i - (oduzimanje) te unarnog operatora - (promjena predznaka)
 
 
@@ -17,17 +17,17 @@ Uočiti kako za referentne tipove nema razlike između pre- i post-operatora jer
 reference.
 
 
-Racionalni1
------------
+KonstruktorPretvorbe
+--------------------
 Operator konstruktora pretvorbe: Racionalni se stvara iz tipa double.
 
 
-Racionalni2
------------
+OperatorImplicitnePretvorbe
+---------------------------
 Definiranje operatora implicitne pretvorbe (iz long i iz double)
 
 
-Racionalni3
------------
+OperatorEksplicitnePretvorbe
+----------------------------
 Definiranje operatora eksplicitne pretvorbe (u long, odnosno u double) te ToXXX metoda.
 

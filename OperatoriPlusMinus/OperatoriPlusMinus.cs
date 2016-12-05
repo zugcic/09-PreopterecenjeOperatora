@@ -39,10 +39,11 @@ namespace Vsite.CSharp
             throw new NotImplementedException();
         }
 
-        // TODO: implementirati binarni operator - (za oduzimanje dva kompleksna broja), otkomentirati naredbu koja ga poziva u Main te provjeriti ispis pri izvođenju programa
+        // TODO: Implementirati binarni operator - (za oduzimanje dva kompleksna broja)
+        
+        // TODO: Implementirati preopterećeni unarni operator - (za promjenu predznaka)
 
-
-        // TODO: implementirati preopterećeni unarni operator - (za promjenu predznaka), otkomentirati naredbu koja ga poziva u Main te provjeriti ispis pri izvođenju programa
+        // TODO: Otkomentirati naredbu koja ga poziva u Main te provjeriti ispis pri izvođenju programa
 
     }
 

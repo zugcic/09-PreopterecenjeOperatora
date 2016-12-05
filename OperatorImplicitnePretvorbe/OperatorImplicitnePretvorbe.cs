@@ -3,11 +3,11 @@ using System.Diagnostics;
 
 namespace Vsite.CSharp
 {
-    // TODO: U strukturu Racionalni iz prethodnog projekta dodati operator implicitne konverzije iz long u Racionalni, otkomentirati donje naredbe i pokrenuti program
+    // TODO: U strukturu Racionalni iz prethodnog projekta dodati operator implicitne konverzije iz long u Racionalni
 
+    // TODO: U strukturu Racionalni iz prethodnog projekta dodati operator implicitne konverzije iz double u Racionalni
 
-
-    // TODO: U strukturu Racionalni iz prethodnog projekta dodati operator implicitne konverzije iz double u Racionalni, otkomentirati donje naredbe i pokrenuti program
+    // TODO: Otkomentirati donje naredbe i pokrenuti program
 
 
     class OperatorImplicitnePretvorbe
@@ -22,7 +22,7 @@ namespace Vsite.CSharp
                 //Debug.Assert(rac.ToString() == "1 / 10");
                 Console.WriteLine(rac);
 
-                // koristi implicitnu pretvorbu iz double
+                // koristi implicitnu pretvorbu iz int
                 //rac = 2;
                 //Debug.Assert(rac.ToString() == "2 / 1");
                 Console.WriteLine(rac);

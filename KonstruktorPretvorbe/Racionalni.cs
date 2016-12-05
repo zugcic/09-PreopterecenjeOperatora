@@ -2,8 +2,6 @@
 
 namespace Vsite.CSharp
 {
-    // primjer konstruktora konverzije
-
     public struct Racionalni
     {
         public Racionalni(long brojnik = 0, long nazivnik = 1) : this()
@@ -30,8 +28,6 @@ namespace Vsite.CSharp
         }
 
         // TODO: dodati konstruktor pretvorbe (konverzije) koji stvara racionalni broj iz tipa double i u njemu treba samo pozvati metodu Raščlani. Otkomentirati naredbe u Main metodi koje pozivaju taj konstruktor.
-
-
 
 
         private void Raščlani(double broj)

@@ -53,9 +53,11 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestKlasaDatum.cs" />
-    <Compile Include="TestKompleksnogBroja.cs" />
-    <Compile Include="TestStrukturaDatum.cs" />
+    <Compile Include="TestEksplicitnePretvorbe.cs" />
+    <Compile Include="TestImplicitnePretvorbe.cs" />
+    <Compile Include="TestOperatoraPlusMinus.cs" />
+    <Compile Include="TestKonstruktoraPretvorbe.cs" />
+    <Compile Include="TestInkrementa.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Inkrement\Inkrement.csproj">

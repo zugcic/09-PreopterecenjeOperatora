@@ -5,7 +5,7 @@ using Vsite.CSharp;
 namespace Testovi
 {
     [TestClass]
-    public class TestKompleksnogBroja
+    public class TestOperatoraPlusMinus
     {
         [TestMethod]
         public void KompleksniBroj_BinarniOperatorPlusDajeZbrojDvaKompleksnaBroja()
