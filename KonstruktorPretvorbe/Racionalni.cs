@@ -46,6 +46,32 @@ namespace Vsite.CSharp
 		{
 			return new Racionalni(broj);
 		}
+		
+		// U strukturi Racionalni iz prethodnog projekta definirati 
+		//operator eksplicitne pretvorbe u double (koji poziva gornju metodu ToDouble)
+
+		public double ToDouble()
+		{
+			return (double)Brojnik/Nazivnik;
+		}
+		public static explicit operator double(Racionalni rac)
+		{
+			return rac.ToDouble();
+		
+		}
+		//  U strukturi Racionalni iz prethodnog projekta
+		//definirati javnu (public) metodu pretvorbe ToInt64() koja će 
+		//racionalni broj pretvoriti u long i to vratiti kao rezultat
+
+		public long ToInt64()
+		{
+			return (long)Brojnik / Nazivnik;
+		}
+		public static explicit operator long(Racionalni rac)
+		{
+			return rac.ToInt64();
+
+		}
 
 
 		private void Raščlani(double broj)
