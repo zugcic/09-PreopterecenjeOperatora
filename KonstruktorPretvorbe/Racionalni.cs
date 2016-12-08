@@ -34,8 +34,21 @@ namespace Vsite.CSharp
 		{
 			Raščlani(broj);
 		}
+		
+		//U strukturu Racionalni iz prethodnog projekta dodati operator implicitne konverzije iz long u Racionalni
+		public static implicit operator Racionalni(double broj)
+		{
+			return new Racionalni(broj);
+		}
+		
+		//U strukturu Racionalni iz prethodnog projekta dodati operator implicitne konverzije iz double u Racionalni
+		public static implicit operator Racionalni(long broj)
+		{
+			return new Racionalni(broj);
+		}
 
-        private void Raščlani(double broj)
+
+		private void Raščlani(double broj)
         {
             long brojnik = (long)broj;
             long nazivnik = 1;
